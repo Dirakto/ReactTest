@@ -1,0 +1,37 @@
+.Header,
+.Footer {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #C9CBFF;
+  height: 30px;
+  color: #2429fc;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.Header nav,
+.Footer nav {
+    display: inline-block;
+}
+
+.Header nav:hover,
+.Footer nav:hover{
+  cursor: pointer;
+}
+
+.Header span,
+.Footer span {
+  padding-right: 20px;
+}
+
+.Footer {
+  /* bottom: 0;
+  left: 0;
+  width: 100%;
+  position: absolute; */
+  /* flex-shrink: 0; */
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  justify-content: flex-end;
+}

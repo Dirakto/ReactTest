@@ -1,0 +1,23 @@
+.CarListView {
+    margin: auto;
+    width: fit-content;
+    display: block;
+    max-height: 200px;
+    height: 200px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+}
+.CarListView:hover{
+    cursor: pointer;
+}
+.CarListView td {
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+/* ::-webkit-scrollbar-thumb {
+    background: #FF0000;
+} */

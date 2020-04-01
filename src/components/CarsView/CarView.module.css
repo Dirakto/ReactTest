@@ -1,0 +1,8 @@
+.CarView h1 {
+    text-align: center;
+}
+
+.CarView button {
+    display: block;
+    margin: auto;
+}

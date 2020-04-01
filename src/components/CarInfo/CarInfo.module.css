@@ -1,0 +1,30 @@
+.CarInfo {
+    margin: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.TechData {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+
+.TechData .first {
+    text-decoration: underline;
+}
+
+.CarInfo img {
+    position: relative;
+    top: 20px;
+    max-height: 250px;
+    max-width: 450px;
+}
+
+.Description {
+    margin-top: 35px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-indent: 30px;
+}
