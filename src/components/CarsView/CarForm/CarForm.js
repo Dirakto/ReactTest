@@ -3,13 +3,13 @@ import { useForm } from "react-hook-form";
 
 import classes from './CarForm.module.css';
 
-const CarForm = props => {
+const CarForm = ({addCar}) => {
 
     const { handleSubmit, register, errors, setError } = useForm();
     const [isFormOpen, setIsFormOpen] = useState(false);
 
     const submitForm = (res) => {
-        props.addCar(res);
+        addCar(res);
         toggleForm();
     }
 
